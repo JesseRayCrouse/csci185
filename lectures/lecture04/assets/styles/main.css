@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    font-family: Oswald, Helvetica, sans-serif;
+    background-color: lightcoral;
+}
+img {
+border-color: darkred;
+border-style: solid;
+border-width: 5px;
+}
+p, a, strong {
+    font-size: 1.2rem;
+    line-height: 1.7em;
+}
+
+header, main, footer {
+    padding: 0 10vh;
+    color:white;
+}
+
+header, footer {
+    background-color:darkred;
+    padding: 30px 10vh;
+}
+header strong, header a {
+    margin-right: 10px;
+}
+
+main {
+    min-height: 80vh;
+}
+main img {
+    max-width: 300px;
+}
+a:link, a:visited, a:hover, a:active {
+color: white;
+text-decoration: none;
+}
+h1{
+font-size: 48px;
+}
+iframe{
+border-style: solid;
+border-color: darkred;
+border-width: 5px;
+}
