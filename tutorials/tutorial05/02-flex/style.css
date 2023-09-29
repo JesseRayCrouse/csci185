@@ -1,0 +1,30 @@
+html {
+    scroll-behavior: smooth;
+}
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+section {
+display: flex;
+height: 100vh;
+flex-direction: column;
+justify-content:center;
+color: white;
+align-items:center;
+}
+#home{
+background-color: #610061;
+}
+#portfolio{
+background-color: #C700C7;
+}
+#bio{
+background-color: #A100A1;
+}
+#contact{
+background-color: #E001E0;
+}
