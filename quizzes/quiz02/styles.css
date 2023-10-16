@@ -1,0 +1,84 @@
+body * {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header, main, footer {
+    padding-left: 5vw;
+    padding-right: 5vw;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    background-color: #013672;
+    justify-content:space-between;
+}
+
+header img, footer img {
+    width: 200px;
+}
+nav{
+display: flex;
+column-gap: 10px;
+justify-content: right;
+align-items: center;
+}
+nav>a{
+    color:white;
+    text-decoration: none;
+    padding: 10px 10px;
+}
+#logo-header{
+margin: 20px;
+padding: 10px;
+}
+h1, h2, h3{
+font-family:"Passion One";
+}
+h1{
+display: flex;
+justify-content: center;
+margin-top: 30px;
+}
+
+h2{
+display: flex;
+margin-top: 80px;
+}
+.cards{
+display: grid;
+grid-template-columns: 50% 50%;
+row-gap: 10px;
+column-gap: 25px;
+}
+.card{
+    display:grid;
+    grid-template-columns: 60% 40%;
+    background-color: white;
+    padding: 10px 10px;
+    text-align: left;
+    border-width: 2px;
+    border-style: solid;
+    border-color: gray;
+    transition: 0.5s;
+    }
+.cards img{
+width: 100%;
+}
+.card:hover{
+background-color:#013672;
+color: white;
+}
+@media (max-width:800px){
+ .cards{
+grid-template-columns: 100%;
+ } 
+ nav{
+display: none;
+ }  
+}
