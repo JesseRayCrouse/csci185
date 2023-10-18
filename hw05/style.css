@@ -81,14 +81,19 @@ footer {
 /***************************/
 /* Part A: Left Navigation */
 /***************************/
-
-/* Your Code Here */
-
-
-
-
-
-
+#sidebar{
+display: flex;
+flex-direction: column;
+justify-content: left;
+align-items:baseline;
+padding-left: 30px;
+row-gap: 15px;
+}
+aside>a:hover,
+aside>a.selected {
+    border-left: solid 3px greenyellow;
+    padding: 10px;
+}
 /********************************/
 /* Part B: Header & Nav Styling */
 /********************************/
@@ -132,6 +137,7 @@ nav>a {
 nav>a:hover,
 nav>a.selected {
     border-bottom: solid 3px greenyellow;
+    padding-bottom: 0px;
 }
 
 #featured-content {
@@ -167,7 +173,9 @@ h2 {
 .artist-card button {
     display: none;
 }
-
+.controls{
+font-display: none;
+}
 
 /*************************/
 /* Part C: Artists Panel */
