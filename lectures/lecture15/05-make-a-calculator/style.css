@@ -1,0 +1,10 @@
+#answer {
+    padding: 10px;
+    background: #ffffff;
+    min-height: 100px;
+    margin-top: 10px;
+    width: 400px;
+}
+body{
+background-color: darkred;
+}
