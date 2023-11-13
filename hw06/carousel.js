@@ -21,6 +21,7 @@ function showImage() {
     console.log('Show image');
     const img = document.querySelector('.current-photo img');
     img.src = photos[idx];
+    document.querySelector('.caption').innerHTML=`${idx +1} of 10`;
 }
 
 
@@ -31,12 +32,14 @@ function showImage() {
    the array, set idx to 0.
 */
 function forward() {
-    console.log('forward');
-    idx += 1;
+    console.log('forward',idx);
+    if (idx >= 9) {
+        idx =0;
+    } else {
+     idx+=1;
+    }
     showImage();
 }
-
-
 /* This function should set the idx variable 
    to one less than the current value of idx, 
    and then invoke the showImage() function.
@@ -44,5 +47,11 @@ function forward() {
    one less than the length of the array.
 */
 function back() {
-    console.log('back');
+    console.log('back',idx);
+    if (idx <= 0) {
+        idx =9;
+    } else {
+     idx-=1;
+    }
+    showImage();
 }
