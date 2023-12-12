@@ -1,0 +1,117 @@
+body {
+	margin: 5; 
+	padding: 5;
+	background-image: url("../images/corepagebackground.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 12px;
+	line-height: 18px;
+	font-family: 'blacklisted', sans-serif;
+	color: #333333;
+	}
+
+/* ------------------------------------------------------------------ */
+
+a:link, a:visited {
+  background-color: darkviolet;
+  color: white;
+font-size: 32px;
+  padding: 20px 105px;
+  text-decoration: none;
+  display: inline-block;
+font-family:'blacklisted';
+}
+a:hover{
+background-color: black;
+color:darkviolet;
+}
+
+.inner-button-container-div a:any-link{
+font-size:18px;
+padding: 10px 100px;
+display: inline-block;
+}
+/* ------------------------------------------------------------------ */
+.active-page:any-link{
+background-color: black;
+color: darkviolet;
+}
+.button-container-div{
+background-color: white;
+padding: 14px 12px;
+  text-decoration: none;
+	width: 700px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.inner-button-container-div{
+ background-color: white;
+    width:700px;
+  padding: 14px 12px;
+  text-decoration: none;
+font-family:'blacklisted';
+text-align: center;
+margin-left: auto;
+margin-right: auto;
+}
+.squirrel {
+	width: 700px;
+	margin-left: auto;
+	margin-right: auto;
+	}
+	
+.innersquirrel {
+	width: 700px;
+	position:absolute;
+	}
+.raccoonimage1 {
+    display: block;
+    width:375px;
+    height:280px; 
+    border-style: solid;
+    border-width: 20px 163px;
+    border-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    position:relative;
+    bottom: -226px;
+    right: -.5px;
+    }
+h1{
+margin:auto;
+width:350px;
+}
+.logobutton:any-link{
+width:130px;
+height: 48px;
+background:url(../images/minimallogo.png) no-repeat;
+background-color: none;
+padding-bottom: 50px;
+}
+.logobutton:hover{
+background: url(../images/minimallogohover.png) no-repeat;
+}
+    h2 {
+    height:48px;
+    width:700px;
+   margin-left: auto;
+    margin-right: auto;
+    background-color:white;
+    font:32px/30px'blacklisted',"Times New Roman", serif;  
+    font-family:'blacklisted';
+    text-align: center;
+    padding-top: 20px;
+        color:darkviolet;}
+    i{
+    color:darkviolet;
+    }
+    p,ul,dl {
+    font:24px/20px/"Georgia","Times New Roman", serif;  
+    font-family:'blacklisted';
+    background-color:white;
+    color:black;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+       
+    }

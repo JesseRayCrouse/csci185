@@ -1,0 +1,216 @@
+body {
+	margin: 0; 
+	padding: 0;
+	}
+
+body {
+    width:1340px;
+    height: 720px;
+	font-size: 18px;
+	line-height: 18px;
+	font-family: Oswald, sans-serif;
+	text-decoration: none;
+    background: url(../images/tilingmaximal.jpg)
+	}
+
+.summary{
+background-color: black;
+text-align: center;
+width: 840px;
+height: 116px;
+margin-top: -25px;
+}
+/* ------------------------------------------------------------------ */
+
+a:link, a:visited {
+  background:url(../images/habitatsbutton.png);
+  color: white;
+text-align: center;
+width: 570px;
+height:90px;
+font-size: 40px;
+  text-decoration: none;
+  display: inline-block;
+font-family:'Oswald';
+}
+a:hover, a:active{
+background:url(../images/habitatsbuttonhover.png);
+color:darkviolet;
+}
+/* ------------------------------------------------------------------ */
+.container {
+	width:1340px;
+    height: 820px;
+    
+}
+p{
+width: 500px;
+background-color: white;
+border-color: darkviolet;
+border-style: solid;
+border-width: 10px;
+margin-left: auto;
+margin-right: auto;
+padding: 10px;
+margin-left:150px;    
+}
+.button-container-div{
+background-color: black;
+padding: 14px 15px;
+  text-decoration: none;
+	width: 570px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.link-2 a:link, a:visited {
+  background:url(../images/ancestrybutton.png);
+  color: white;
+text-align: center;
+width: 570px;
+height:90px;
+font-size: 40px;
+  text-decoration: none;
+  display: inline-block;
+font-family:'Oswald';
+}
+
+.subsectionbutton a:link, a:visited{
+background: url(../images/dietbutton.png);
+background-repeat: no-repeat;
+border-top: 5px;
+border-bottom: 5px;
+border-color: black;
+width: 600px;
+height: 60px;
+}
+.subsectionbutton a:hover, .subsection a:active{
+background: url(../images/dietbuttonhover.png);
+background-repeat: no-repeat;
+border-top: 5px;
+border-bottom: 5px;
+border-color: black;
+width: 600px;
+height: 60px;
+}
+.subsectionbutton2 a:link, a:visited{
+background: url(../images/humaninteraction.png);
+background-repeat: no-repeat;
+border-top: 5px;
+border-bottom: 5px;
+border-color: black;
+width: 600px;
+height: 60px;
+}
+.subsectionbutton2 a:hover, .subsection2 a:active{
+background: url(../images/humaninteractionhover.png);
+background-repeat: no-repeat;
+border-top: 5px;
+border-bottom: 5px;
+border-color: black;
+width: 600px;
+height: 60px;
+}
+.subsectionbutton3 a:link, .subsectionbutton3 a:visited{
+background: url(../images/extinctrelatives.png);
+background-repeat: no-repeat;
+border-top: 5px;
+border-bottom: 5px;
+border-color: black;
+width: 600px;
+height: 60px;
+}
+.subsectionbutton3 a:hover, .subsection3 a:active{
+background: url(../images/exctinctrelativeshover.png);
+background-repeat: no-repeat;
+border-top: 5px;
+border-bottom: 5px;
+border-color: black;
+width: 600px;
+height: 60px;
+}
+.subsectionbutton4 a:link, .subsectionbutton4 a:visited{
+background: url(../images/livingrelatives.png);
+background-repeat: no-repeat;
+border-top: 5px;
+border-bottom: 5px;
+border-color: black;
+width: 600px;
+height: 60px;
+}
+.subsectionbutton4 a:hover, .subsection4 a:active{
+background: url(../images/livingrelativeshover.png);
+background-repeat: no-repeat;
+border-top: 5px;
+border-bottom: 5px;
+border-color: black;
+width: 600px;
+height: 60px;
+}
+.link-2 a:hover{
+background: url(../images/ancestrybuttonhover.png);
+background-repeat: no-repeat;
+}
+
+h2{
+height: 120px;
+width: 640px;
+background-repeat: repeat;
+margin-left: 50px;
+}
+.column_left {
+	width: 600px;
+    height: 820px;
+	float: left;
+    background-image: url(../images/maximalmenubackground.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+	}	
+.column_right {
+	width: 640px;
+    height: 820PX;
+    background-image: url(../images/tilingmaximal.jpg);
+    background-repeat: repeat;
+	float:right;
+    padding-right:100px;
+	}
+.footer{
+position:absolute;
+left: 0;
+bottom: 0;
+height:50px;
+width: 1440px;
+background-color: black;
+
+}
+.activepage a:any-link{
+background: url(../images/habitatsbuttonhover.png);
+}
+.activepage2 a:any-link{
+background: url(../images/ancestrybuttonhover.png);
+}
+.logobutton:any-link{
+height: 135px;
+width: 495px;
+background:url(../images/maximallogo.png.png) no-repeat;
+background-color: none;
+}
+.logobutton:hover{
+
+background: url(../images/maximallogohover.png);
+background-repeat:no-repeat;
+}
+i{
+color: darkviolet;
+}
+.activepage3 a:any-link{
+background: url(../images/exctinctrelativeshover.png);
+}
+.activepage4 a:any-link{
+background: url(../images/livingrelativeshover.png);
+}.activepage5 a:any-link{
+background: url(../images/dietbuttonhover.png);
+}
+.activepage6 a:any-link{
+background: url(../images/humaninteractionhover.png);
+}
